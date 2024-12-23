@@ -26,7 +26,7 @@ export const HeroNews = () => {
         </div>
       </div>
       <div className={Herostyles.heroRight}>
-        <div className="right-img">
+        <div className={Herostyles.rightImg}>
           <img
             src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2024/12/326191-19122024-1734593986-1022467717-zurag-261.jpg"
             alt=""

@@ -2,27 +2,27 @@ import newsstyles from "../styles/NewsDate.module.css";
 const newsArr = [
   {
     tittle: "",
-    line: "",
+    line1: "",
     date: "12 сарын 22",
   },
   {
     tittle: "",
-    line: "",
+    line1: "",
     date: "12 сарын 21",
   },
   {
     tittle: "",
-    line: "",
+    line1: "",
     date: "12 сарын 20",
   },
   {
     tittle: "",
-    line: "",
+    line1: "",
     date: "12 сарын 19",
   },
   {
     tittle: "",
-    line: "",
+    line1: "",
     date: "12 сарын 18",
   },
 ];
@@ -46,8 +46,8 @@ export const NewsDate = () => {
             <div className={newsstyles.newsTit}>
               <h3 className={newsstyles.h3}>{news.tittle}</h3>
             </div>
-            <div className={newsstyles.line}>{news.line}</div>
-            <p className={newsstyles.p}>{news.date}</p>
+            <div className={newsstyles.line1}>{news.line1}</div>
+            <p className={newsstyles.p1}>{news.date}</p>
           </div>
         );
       })}

@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
-  border-right: 1px solid rgba(128, 128, 128, 0.271);
+  border-right: 1px solid rgba(128, 128, 128, 0.096);
   width: 810px;
 }
 .othernews {
@@ -70,4 +70,17 @@
 .rec img {
   width: 100%;
   height: 100%;
+}
+.next {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 800;
+  font-size: 17px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.next img {
+  width: 20px;
+  height: 20px;
 }

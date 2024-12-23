@@ -6,6 +6,7 @@ import { SmallNews } from "@/components/SmallNews";
 import { Gogostory } from "@/components/Gogostory";
 import { OtherNews } from "@/components/OtherNews";
 import { PopularNews } from "@/components/PopularNews";
+import { Interview } from "@/components/Interview";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <OtherNews />
         <PopularNews />
       </div>
+      <Interview />
     </div>
   );
 }

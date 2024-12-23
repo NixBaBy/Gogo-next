@@ -15,8 +15,18 @@
   background-color: #407ce8;
   border-radius: 12px;
 }
+.line1 {
+  width: 90px;
+  height: 9px;
+  background-color: #efefef;
+  border-radius: 12px;
+}
 .p {
   color: #407ce8;
+  font-size: 15px;
+}
+.p1 {
+  color: rgb(179, 177, 177);
   font-size: 15px;
 }
 .newsDate {

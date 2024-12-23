@@ -254,6 +254,13 @@ export const OtherNews = () => {
             </div>
           );
         })}
+      <div className={otherstyles.next}>
+        <p>Цааш үзэх</p>
+        <img
+          src="https://mgl.gogo.mn//newsn/v4/images/more.50d348c2.png"
+          alt=""
+        />
+      </div>
     </div>
   );
 };
