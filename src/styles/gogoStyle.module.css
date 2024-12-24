@@ -1,0 +1,129 @@
+.sectionTittle {
+  display: flex;
+  gap: 5px;
+  margin-top: 50px;
+}
+.sectionTittle :nth-child(1) {
+  font-size: 27px;
+  font-weight: 800;
+}
+.sectionTittle :nth-child(2) {
+  font-size: 20px;
+  background-color: #00aff4;
+  color: white;
+  border-radius: 7px;
+  padding: 5px;
+  font-weight: 700;
+}
+.gogoStyleContainers,
+.gogoStyleContainers2 {
+  gap: 35px;
+  display: flex;
+}
+.styleContainer {
+  width: 262px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.styleContainerImg {
+  width: 283px;
+  height: 230px;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  overflow: hidden;
+}
+.styleContainerImg img {
+  width: 100%;
+  height: 100%;
+}
+.styleContainerBot {
+  width: 283px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.157);
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  padding: 10px;
+}
+.styleContainerBot h2,
+.styleContainerBot3 {
+  font-size: 17px;
+  line-height: 1.2;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(128, 128, 128, 0.218);
+}
+.icon {
+  display: flex;
+  gap: 30px;
+}
+.share {
+  display: flex;
+  color: gray;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+}
+.comment {
+  display: flex;
+  color: gray;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+}
+.share svg {
+  width: 13px;
+  height: 13px;
+  fill: gray;
+}
+.comment svg {
+  width: 13px;
+  height: 13px;
+  fill: gray;
+}
+.sectionTittle2,
+.sectionTittle3 {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  font-size: 22px;
+  font-weight: 800;
+  gap: 10px;
+}
+.sectionTittle2 img,
+.sectionTittle3 img {
+  width: 30px;
+  height: 30px;
+}
+.styleContainer3 {
+  width: 50%;
+}
+.styleContainerImg3 {
+  width: 100%;
+  height: 230px;
+}
+.styleContainerImg3 img {
+  height: 100%;
+  width: 100%;
+}
+.styleContainerBot3 {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.157);
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  padding: 10px;
+}
+.styleContainerBot3 h2 {
+  font-size: 19px;
+  margin-bottom: 30px;
+}

@@ -7,19 +7,27 @@ import { Gogostory } from "@/components/Gogostory";
 import { OtherNews } from "@/components/OtherNews";
 import { PopularNews } from "@/components/PopularNews";
 import { Interview } from "@/components/Interview";
-
+import { GogoStyle } from "@/components/GogoStyle";
+import { Watch } from "@/components/Watch";
+import { Footer } from "@/components/Footer";
 export default function Home() {
   return (
     <div className={styles.body}>
-      <Header />
-      <HeroNews />
-      <SmallNews />
-      <Gogostory />
-      <div className={styles.toNews}>
-        <OtherNews />
-        <PopularNews />
+      <div className={styles.containers}>
+        <Header />
+        <HeroNews />
+        <SmallNews />
+        <Gogostory />
+        <div className={styles.toNews}>
+          <OtherNews />
+          <div className={styles.line}></div>
+          <PopularNews />
+        </div>
+        <Interview />
+        <GogoStyle />
       </div>
-      <Interview />
+      <Watch />
+      <Footer />
     </div>
   );
 }

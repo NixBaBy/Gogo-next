@@ -1,0 +1,47 @@
+.footer {
+  width: 54%;
+  margin: auto;
+  margin-top: 50px;
+}
+.logo {
+  display: flex;
+  gap: 150px;
+  font-weight: 500;
+  font-size: 18px;
+}
+.logoImg {
+  width: 120px;
+  height: 40px;
+}
+.logoImg img {
+  width: 100%;
+  height: 100%;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(128, 128, 128, 0.29);
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.imf {
+  display: flex;
+  gap: 50px;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+.icons p {
+  font-size: 13px;
+}
+.icon {
+  display: flex;
+  gap: 10px;
+  fill: gray;
+  margin-bottom: 50px;
+}
+.icon svg {
+  width: 20px;
+  height: 20px;
+}

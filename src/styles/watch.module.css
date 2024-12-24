@@ -1,0 +1,66 @@
+.watch {
+  background-color: #1a1a1a;
+  width: 100%;
+  margin-top: 50px;
+}
+.tittle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.tittle p {
+  font-size: 20px;
+  color: white;
+}
+.containers {
+  max-width: 1120px;
+  margin: auto;
+  padding-top: 50px;
+}
+.allContainer {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+.containerTop {
+  width: 264px;
+  height: 170px;
+  border-radius: 7px;
+  overflow: hidden;
+}
+.containerTop img {
+  width: 100%;
+  height: 100%;
+}
+.share,
+.comment {
+  display: flex;
+  gap: 5px;
+}
+.icon {
+  display: flex;
+  gap: 30px;
+}
+.containerBot {
+  color: rgb(214, 213, 213);
+  font-size: 13px;
+  align-items: center;
+  width: 264px;
+}
+.containerBot h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+.containerBot svg {
+  width: 12px;
+  height: 12px;
+  fill: rgb(214, 213, 213);
+}
