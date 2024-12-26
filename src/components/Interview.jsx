@@ -13,12 +13,13 @@ export const Interview = () => {
           <p> Ярилцлага</p>
         </div>
         <div className={intstyle.heroInt}>
-          <div className={intstyle.heroImg}>
-            <img
-              src="https://mgl.gogo.mn/newsn/thumbnail/1000/np/2022/10/31/tsas_ulaanbaatar_gudamj_tsastaigudamj_tsastseverelgee_tseverlegee_-16-115542-21288800661.jpeg"
-              alt=""
-            />
-          </div>
+          <div
+            className={intstyle.heroImg}
+            style={{
+              backgroundImage: `linear-gradient(0deg, rgba(0,0,1,1) 0%, rgba(0,0,0,0.10270045518207283) 1%), url(${"https://mgl.gogo.mn/newsn/thumbnail/1000/np/2022/10/31/tsas_ulaanbaatar_gudamj_tsastaigudamj_tsastseverelgee_tseverlegee_-16-115542-21288800661.jpeg"})`,
+              backgroundPosition: "center",
+            }}
+          ></div>
           <div className={intstyle.heroBot}>
             <p className={intstyle.Tittle}>Соёлын довтолгоо</p>
             <h2 className={intstyle.h2}>
