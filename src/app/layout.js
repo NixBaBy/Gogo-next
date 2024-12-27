@@ -25,3 +25,11 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+const countDigits = (num) => {
+  const nums = 0;
+  for (let i = 0; i < num.length; i++) {
+    console.log(i);
+  }
+};
+countDigits(123);
