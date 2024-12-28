@@ -19,12 +19,14 @@
 .otherRight {
   width: 480px;
   height: 150px;
+  position: relative;
 }
 .otherLeft img {
   width: 100%;
   border-radius: 7px;
   height: 100%;
 }
+
 .h2 {
   font-size: 20px;
   width: 480px;

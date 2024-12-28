@@ -1,25 +1,25 @@
 "use client";
-import { Squar } from "./Squar";
 import { useState } from "react";
-import pageStyles from "./page.module.css";
-export default function Page() {
-  const [inc, setInc] = useState([1, 2, 3, 4, 5, 6, 7, 8, 9]);
+import page from "./page.module.css";
 
-  const incHandler = () => {
-    const incd = inc.sort((a, b) => a - b);
-    setInc([...inc]);
+export default function Page() {
+  const [num, setNum] = useState("");
+
+  const buttonClicked = (a) => {
+    setNum(a);
   };
-  const decHandler = () => {
-    const dec = inc.sort((a, b) => b - a);
-    setInc([...dec]);
-  };
+
   return (
-    <div className={pageStyles.body}>
-      <div className={pageStyles.buttons}>
-        <button onClick={incHandler}>Inc</button>
-        <button onClick={decHandler}>Dec</button>
-      </div>
-      <Squar value={inc} />
+    <div className={page.nums}>
+      <div className={page.view}>{num}</div>
+      <button onClick={() => buttonClicked("1")}>1</button>
+      <button onClick={() => buttonClicked(2)}>2</button>
+      <button onClick={() => buttonClicked(3)}>3</button>
+      <button onClick={() => buttonClicked(4)}>4</button>
+      <button onClick={() => buttonClicked(5)}>5</button>
+      <button onClick={() => buttonClicked(6)}>6</button>
+      <button onClick={() => buttonClicked(7)}>7</button>
+      <button onClick={() => buttonClicked(8)}>8</button>
     </div>
   );
 }

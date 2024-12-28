@@ -42,7 +42,10 @@ export const Gogostory = () => {
       <div className={gogoStyles.gogoFlex}>
         {gogoArr.map((gogo) => {
           let backimage = {
-            backgroundImage: "url(" + gogo.img + ")",
+            backgroundImage:
+              "linear-gradient(0deg, rgba(0,0,1,0.4668461134453782) 0%, rgba(0,0,0,0) 46%),url(" +
+              gogo.img +
+              ")",
           };
           return (
             <div className={gogoStyles.gogostoryContent}>

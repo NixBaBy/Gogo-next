@@ -18,11 +18,33 @@
   height: 175px;
   border-radius: 10px;
   overflow: hidden;
+  position: relative;
+  transition: 0.5s ease;
+}
+.imgHover {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  opacity: 0;
+  transition: 0.5s ease-out;
 }
 .smallImg img {
   width: 100%;
   height: 100%;
+  transition: 0.3s ease-out;
 }
+.smallImg img:hover {
+  transform: scale(1.1);
+}
+.smallnews:hover {
+  .imgHover {
+    opacity: 1;
+  }
+}
+
 .smallnews h2 {
   font-size: 16px;
 }

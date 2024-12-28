@@ -24,6 +24,7 @@ export const SmallNews = () => {
           <div className={smallStyles.smallnews}>
             <div className={smallStyles.smallImg}>
               <img src={news.img} alt="" />
+              <p className={smallStyles.imgHover}>унших</p>
             </div>
             <h2>{news.h2}</h2>
             <div className={smallStyles.smallShare}>

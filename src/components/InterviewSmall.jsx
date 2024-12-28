@@ -6,7 +6,7 @@ const smallArr = [
     tittle: "ГУТАЛ: #32: “Хөхний чинь зураг байгаа шүү, хөөрхөн өө",
   },
   {
-    img: "https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2024/11/-01112024-1730454760-2040900969-laa-61.jpg",
+    img: "https://mgl.gogo.mn/newsn/thumbnail/600/np/2024/12/03/5222153/0P3A9187-123329-8509841301.jpeg",
     name: "бизнес",
     tittle: "Т.Диймаа: Хүн галын эрчмээ лаагаар нөхөх боломжтой",
   },
@@ -26,8 +26,13 @@ export const InterviewSmall = () => {
     <div className={small.interviewSmall}>
       {smallArr.map((news) => {
         return (
-          <div className={small.smallInt}>
-            <img src={news.img} alt="" />
+          <div
+            className={small.smallInt}
+            style={{
+              backgroundImage: `linear-gradient(0deg, rgba(0,0,1,0.60) 10%, rgba(0,0,0,0) 46%),url(${news.img})`,
+              backgroundPosition: "center",
+            }}
+          >
             <div className={small.smallBot}>
               <p className={small.name}>{news.name}</p>
               <p className={small.tittle}>{news.tittle}</p>

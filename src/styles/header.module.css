@@ -13,7 +13,10 @@
 .headerImgP {
   font-weight: 800;
   font-size: 18px;
+  cursor: pointer;
+  position: relative;
 }
+
 .header-img img {
   width: 100%;
   height: 100%;
@@ -22,6 +25,15 @@
   display: flex;
   gap: 50px;
   align-items: center;
+}
+.hover1 {
+  position: absolute;
+  left: 600px;
+  top: 120px;
+  border: 1px solid gray;
+  width: 250px;
+  height: 400px;
+  background-color: #f4f4f4;
 }
 .input svg {
   fill: gray;
@@ -32,6 +44,7 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  cursor: pointer;
 }
 .weather p {
   font-size: 15px;

@@ -157,6 +157,7 @@ export const OtherNews = () => {
             <div className={otherstyles.othernews}>
               <div className={otherstyles.otherLeft}>
                 <img src={news.img} alt="" />
+                <p className={otherstyles.imgHover}>унших</p>
               </div>
               <div className={otherstyles.otherRight}>
                 <div className={otherstyles.otherLeft}>
