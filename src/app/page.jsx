@@ -10,6 +10,7 @@ import { Interview } from "@/components/Interview";
 import { GogoStyle } from "@/components/GogoStyle";
 import { Watch } from "@/components/Watch";
 import { Footer } from "@/components/Footer";
+// asdasdasd
 export default function Home() {
   return (
     <div className={styles.body}>
